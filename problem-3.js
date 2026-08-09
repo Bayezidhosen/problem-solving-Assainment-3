@@ -1,6 +1,6 @@
 function countHashtags(caption) {
     // write your code here
-    
+
     if (typeof caption !== "string") {
         return "Invalid";
     }
@@ -24,3 +24,4 @@ function countHashtags(caption) {
         longestTag: longestTag
     };
 }
+
